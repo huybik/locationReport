@@ -124,27 +124,12 @@ public class MainActivity extends AppCompatActivity {
             gps.showSettingsAlert();
         }
     }
-    public void initializeSSLContext(Context context) {
-        try {
-            SSLContext.getInstance("TLSv1.2");
-        } catch ( NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        try {
-            ProviderInstaller.installIfNeeded(context);
-        } catch (GooglePlayServicesRepairableException e) {
-            e.printStackTrace();
-        } catch (GooglePlayServicesNotAvailableException e) {
-            e.printStackTrace();
-        }
-    }
 
 
 
 
     public void sendLocation(View view){
 
-            initializeSSLContext(MainActivity.this);
             Location();
 
 
