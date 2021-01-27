@@ -8,4 +8,5 @@ Features include:
 # Installation
 Load the project in Android studio. Register a Firebase cloud Firestore account and add it's config file to your project. Then you can build APK or export to google appstore.
 # Images
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/hoanghuy89/locationreport/raw/main/Capture1.PNG?raw=true)
+![alt text](https://github.com/hoanghuy89/locationreport/raw/main/Capture2.PNG?raw=true)
